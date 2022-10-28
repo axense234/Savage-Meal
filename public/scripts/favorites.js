@@ -27,7 +27,7 @@ const PopulateSearchResultsFavorites = (query = "") => __awaiter(void 0, void 0,
             .map((meal) => {
             return `
            <a class="meal-container" href="/meal.html?meal_id=${meal.idMeal}">
-           <img src="${meal.strMealThumb}"/>
+           <img src="${meal.strMealThumb}" alt="${meal.idMeal}"/>
            <div class="meal-container-info">
            <h2>${meal.strMeal}</h2>
            <p>Category: ${meal.strCategory}</p>
