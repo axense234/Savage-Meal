@@ -80,7 +80,7 @@ const PopulateIndividualMealPage = () => __awaiter(void 0, void 0, void 0, funct
             .map((ingredient, index) => {
             return `
       <li class="meal-list-li">
-          <img src="https://www.themealdb.com/images/ingredients/${ingredient}.png"/>
+          <img src="https://www.themealdb.com/images/ingredients/${ingredient}.png" alt="${ingredient}"/>
           <h2>${ingredient}</h2>
           <p>${mealIngredientsMeasures[index]}</p>
       </li> 
