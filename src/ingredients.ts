@@ -26,7 +26,7 @@ const PopulateSearchResultsIngredients = async () => {
            }">
            <img src="https://www.themealdb.com/images/ingredients/${
              ingredient.strIngredient
-           }.png"/>
+           }.png" alt="${ingredient.strIngredient}"/>
            <div class="meal-container-info">
            <h2>${ingredient.strIngredient}</h2>
            <p>Description: ${

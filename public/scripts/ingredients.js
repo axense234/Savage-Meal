@@ -23,7 +23,7 @@ const PopulateSearchResultsIngredients = () => __awaiter(void 0, void 0, void 0,
             var _a;
             return `
            <a class="meal-container" href="/ingredient.html?i_id=${ingredient.idIngredient}">
-           <img src="https://www.themealdb.com/images/ingredients/${ingredient.strIngredient}.png"/>
+           <img src="https://www.themealdb.com/images/ingredients/${ingredient.strIngredient}.png" alt="${ingredient.strIngredient}"/>
            <div class="meal-container-info">
            <h2>${ingredient.strIngredient}</h2>
            <p>Description: ${((_a = ingredient.strDescription) === null || _a === void 0 ? void 0 : _a.slice(0, 125)) || "No description"}...</p>
