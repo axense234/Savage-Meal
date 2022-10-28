@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "lite-server --baseDir=./public",
-    "build": "parcel build public/index.html"
+    "build": "parcel build public/*"
   },
   "keywords": [],
   "author": "",
