@@ -44,7 +44,7 @@ const PopulateRelatedMeals = () => __awaiter(void 0, void 0, void 0, function* (
       <a href="/meal.html?meal_id=${mealRelated.idMeal}">
        <h2>${index + 1}.${mealRelated.strMeal}</h2>
        <img src="${mealRelated.strMealThumb}" alt=${mealRelated.strMeal}/>
-      <a/>
+      </a>
      </li>
      `;
         })
