@@ -44,19 +44,19 @@ body {
 /* ANIMATIONS */
 @keyframes background-an {
   20% {
-    background-image: url("https://res.cloudinary.com/birthdayreminder/image/upload/v1665847798/image1_hdm6v2.jpg");
+    background-image: url("https://res.cloudinary.com/birthdayreminder/image/upload/Savage%20Meal/v1665847798/image1_hdm6v2.jpg");
   }
   40% {
-    background-image: url("https://res.cloudinary.com/birthdayreminder/image/upload/v1665847802/image2_lqkdwt.jpg");
+    background-image: url("https://res.cloudinary.com/birthdayreminder/image/upload/Savage%20Meal/v1665847802/image2_lqkdwt.jpg");
   }
   60% {
     background-image: url("https://www.themealdb.com/images/media/meals/tyywsw1505930373.jpg");
   }
   80% {
-    background-image: url("https://res.cloudinary.com/birthdayreminder/image/upload/v1665847810/image4_mu4j0r.jpg");
+    background-image: url("https://res.cloudinary.com/birthdayreminder/image/upload/Savage%20Meal/v1665847810/image4_mu4j0r.jpg");
   }
   100% {
-    background-image: url("https://res.cloudinary.com/birthdayreminder/image/upload/v1665847816/image5_lbqorv.jpg");
+    background-image: url("https://res.cloudinary.com/birthdayreminder/image/upload/Savage%20Meal/v1665847816/image5_lbqorv.jpg");
   }
 }
 
@@ -178,7 +178,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url("https://res.cloudinary.com/birthdayreminder/image/upload/v1665847798/image1_hdm6v2.jpg");
+  background-image: url("https://res.cloudinary.com/birthdayreminder/image/upload/Savage%20Meal/v1665847798/image1_hdm6v2.jpg");
   animation: background-an 5s alternate infinite;
   background-position: center;
   background-size: cover;
