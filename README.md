@@ -40,6 +40,8 @@ npm start
 
 ## **Version History**
 
+- 0.3
+  - Added Docker and Jenkins.
 - 0.2
   - Created a README.md and improved a bit(?) how the initial search of a meal is done
   - See [commit change](https://github.com/axense234/Savage-Meal/commits/master) or See [release history](https://github.com/axense234/Savage-Meal/releases)
