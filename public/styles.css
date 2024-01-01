@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Indie Flower", cursive;
-  transition: all 0.2s;
+  transition: all 0.2s ease-in;
 }
 
 /* INFO */
